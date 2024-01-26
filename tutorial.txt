@@ -1,0 +1,29 @@
+----- install python---
+1. download python with new version : https://www.python.org/downloads/
+2. open cmd: python --version
+
+------ install django---
+1. python -m pip install -e django/
+
+------ create new project web python----
+1. python -m django startproject [my_site]
+
+---- run project----
+- python manage.py runserver ( default gateway is 8000)
+- switch gateway : python manage.py runserver 8080.
+
+------ create webApp----------
+- python manage.py startapp home 
+
+------ update setting----
+- python manage.py migrate
+
+------ interact with database ---
+- python manage.py shell
+    + from blog.models import Post
+    + 
+
+
+-------- system Admin--------
+ - python manage.py createsuperuser
+ 
